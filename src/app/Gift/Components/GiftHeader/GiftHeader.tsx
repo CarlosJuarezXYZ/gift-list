@@ -3,9 +3,9 @@ import styled from "styled-components";
 const HeaderContainer = styled.div`
   width: 100%;
   height: 420px; /* Altura del header */
-  background-image: url("/public/photo-header.jpg");
+  background-image: url("/photo-header.jpg");
   background-size: cover;
- background-position: center 25%;
+  background-position: center 25%;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -32,8 +32,8 @@ const HeaderContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-     width: 100%;
-     height: 250px;
+    width: 100%;
+    height: 250px;
     h1 {
       font-size: 20px;
     }
